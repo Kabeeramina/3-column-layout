@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: rgb(177, 165, 165);
+}
+main{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#sedan{
+    background-color:hsl(31,77%,52%);
+    padding: 99px;
+    
+    
+}
+#suvs{
+    background-color: hsl(184,100%,22%);
+    padding: 99px;
+
+
+}
+#luxury{
+    background-color: hsl(179,100%, 22%);
+    padding: 99px;
+    
+}
+p{
+    padding: 20px;
+    color:  hsl(0, 0%, 100%,0.75)
+}
+div{
+    border:2px;
+
+}
+
+img{
+    padding-bottom: 40px;
+    
+}
+input{
+    cursor: pointer;
+    bottom: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+
+}
+#input1{
+    background-color:hsl(31,77%,52%); ;
+}
+#input2{
+     background-color: hsl(184,100%,22%);
+     
+     
+}
+#input3{
+    background-color:hsl(179,100%, 22%) ;
+}
+h2{
+    color: white;
+    font-size: bold;
+}
